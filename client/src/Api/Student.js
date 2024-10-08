@@ -23,13 +23,10 @@ export const GetStudentData = async () => {
   }
 };
 
-export const MarkStudentAttendance = async (rollNumber, attendanceRecord) => {
-  console.log("qqqq",attendanceRecord);
-  
+export const MarkStudentAttendance = async (attendanceRecord) => {
   try {
-    const response = await axios.post('http://localhost:5000/api/add-attentance', rollNumber, attendanceRecord);
-    console.log("aaaaaa",response.data);
-    
+    const response = await axios.post('http://localhost:5000/api/add-attentance', attendanceRecord); 
+    console.log("Attendance updated successfully:", response.data);
     return response.data; 
   } catch (error) {
     console.error("Error updating attendance:", error);

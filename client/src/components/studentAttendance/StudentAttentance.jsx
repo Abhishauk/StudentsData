@@ -91,7 +91,7 @@ const StudentAttendance = () => {
   return (
     <div>
       <h2>Student Attendance</h2>
-      <button className="btn" onClick={handleAddStudent}>
+      <button className="btn-attend" onClick={handleAddStudent}>
         Add Student
       </button>
       {attendanceData.length > 0 ? (
@@ -132,7 +132,7 @@ const StudentAttendance = () => {
 
                 <td>
                   <button onClick={() => setSelectedStudent(student)}>
-                    Mark Attendance
+                     Attendance
                   </button>
                 </td>
               </tr>

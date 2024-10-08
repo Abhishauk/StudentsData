@@ -48,7 +48,7 @@ p {
     transform: translate(-50%, -50%);
     background-color: white;
     padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
     z-index: 1000;
   }
   
@@ -62,5 +62,10 @@ p {
   
   .attendance-modal button {
     margin-top: 10px;
+  }
+  .btn-attend {
+    padding: 10px;
+    width: 200px;
+    margin-bottom: 5px;
   }
   

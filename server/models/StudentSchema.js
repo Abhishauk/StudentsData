@@ -6,7 +6,11 @@ const studentSchema = new mongoose.Schema({
   attendance: [
     {
       date: { type: Date, required: true },
-      status: { type: String, enum: ['Present', 'Half Day', 'Absent']},
+      status: { 
+        type: String, 
+        enum: ['Present', 'Half Day', 'Absent', 'fullDay'], // Added 'fullDay'
+        required: true
+      },
     },
   ],
 });
