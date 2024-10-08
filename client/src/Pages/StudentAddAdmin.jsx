@@ -1,5 +1,5 @@
 import React from 'react';
-import StudentAdd from '../../components/StudentAdd/StudentAdd';
+import StudentAdd from '../components/StudentAdd/StudentAdd';
 
 const StudentAddAdmin = () => {
   return (

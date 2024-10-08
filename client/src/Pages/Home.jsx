@@ -1,5 +1,5 @@
 import React from 'react';
-import StudentAttendance from '../../components/studentAttendance/StudentAttentance';
+import StudentAttendance from '../components/studentAttendance/StudentAttentance';
 
 const Home = () => {
   return (
